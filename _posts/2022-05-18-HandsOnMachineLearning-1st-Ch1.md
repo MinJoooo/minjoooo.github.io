@@ -10,13 +10,10 @@ toc: false
 <br>
 <br>
 
-#### 2022.05.18.
-
-#### Hands-On Machine Learning 2판
-
-#### Chapter 1. 한눈에 보는 머신러닝
-
-#### 1회독 - 내용 단순 요약
+###### 2022.05.18.
+###### Hands-On Machine Learning 2판
+###### Chapter 1. 한눈에 보는 머신러닝
+###### 1회독 - 내용 단순 요약
 
 <br>
 <br>
