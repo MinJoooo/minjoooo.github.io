@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Hands-On Machine Learning 1회독] Chapter 2. 머신러닝 프로젝트 처음부터 끝까지"
-categories: "핸즈온머신러닝1회독"
+categories: 핸즈온머신러닝1회독
 tag: [python, Machine Learning]
 toc: false
 ---
