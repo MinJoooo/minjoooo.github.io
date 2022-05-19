@@ -288,7 +288,7 @@ housing["income_cat"] = pd.cut(housing["median_income"],
                                labels=[1, 2, 3, 4, 5])
 ```
 
-income category에서 0~1.5는 category 1, 1.5~3.0는 category 2와 같이 범위를 나눔.
+income category에서 0 ~ 1.5는 category 1, 1.5 ~ 3.0는 category 2와 같이 범위를 나눔.
 
 - Scikit-learn의 StratifiedShuffleSplit을 사용해 Stratified sampling
 
