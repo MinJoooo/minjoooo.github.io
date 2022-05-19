@@ -102,7 +102,7 @@ toc: false
 - Mean Absolute Error (MAE, 평균 절대 오차)
 
 ![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuBYHM%2FbtrCBNYbZcE%2FK4jZ10pSVwcnkL2ukAqtB1%2Fimg.png)
-
+<img src="[/images/image01.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuBYHM%2FbtrCBNYbZcE%2FK4jZ10pSVwcnkL2ukAqtB1%2Fimg.png)" width="400">
 
 <br>
 
