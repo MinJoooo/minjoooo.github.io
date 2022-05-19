@@ -123,9 +123,9 @@ toc: false
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FLeWxJ%2FbtrCBppLPEX%2FQuKueRmAmGyOrlnkM42eAK%2Fimg.png" width=120>
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbuK83p%2FbtrCAvRfZmH%2FStvEtAKYUNzaLMyYC6nly1%2Fimg.png" width=60>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbuK83p%2FbtrCAvRfZmH%2FStvEtAKYUNzaLMyYC6nly1%2Fimg.png" width=100>
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbydWNp%2FbtrCB1aLZsH%2Fcwp2ZSZU06saEReW54Z5jK%2Fimg.png" width=200>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbydWNp%2FbtrCB1aLZsH%2Fcwp2ZSZU06saEReW54Z5jK%2Fimg.png" width=300>
 
 
 <br>
@@ -213,7 +213,7 @@ housing.info()
 housing["ocean_proximity"].value_counts()
 ```
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdDqPmI%2FbtrCDduMZuV%2FXjM4YCtQlonw9v2My8Ujp0%2Fimg.png" width=300>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdDqPmI%2FbtrCDduMZuV%2FXjM4YCtQlonw9v2My8Ujp0%2Fimg.png" width=250>
 
 - describe(): numerical attribute의 요약 information
 
@@ -236,7 +236,7 @@ save_fig("attribute_histogram_plots")
 plt.show()
 ```
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFliKx%2FbtrCCFrxVWP%2FN119iIPuScmi8X21mC07CK%2Fimg.png" width=400>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFliKx%2FbtrCCFrxVWP%2FN119iIPuScmi8X21mC07CK%2Fimg.png" width=500>
 
 
 <br>
@@ -343,7 +343,7 @@ corr_matrix = housing.corr()
 corr_matrix["median_house_value"].sort_values(ascending=False)
 ```
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqWzBB%2FbtrCE1An5yh%2FbKf2FSI3CnojKygokh8bVk%2Fimg.png" width=200>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqWzBB%2FbtrCE1An5yh%2FbKf2FSI3CnojKygokh8bVk%2Fimg.png" width=300>
 
 ```
 from pandas.plotting import scatter_matrix
@@ -441,7 +441,7 @@ housing_cat_encoded = ordinal_encoder.fit_transform(housing_cat)
 housing_cat_encoded[:10]
 ```
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcBgYkq%2FbtrCArnlOPg%2FNg80mvps3j9CHeuekVSGbK%2Fimg.png" width=60>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcBgYkq%2FbtrCArnlOPg%2FNg80mvps3j9CHeuekVSGbK%2Fimg.png" width=120>
 
 value의 크기에 대한 상관성이 없다는 문제가 있음 (ex. 0과 1이 0과 4보다 더 가까운 특성이라는 보장이 없음)
 
@@ -464,7 +464,7 @@ housing_cat_1hot
 housing_cat_1hot.toarray()
 ```
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdw6UzX%2FbtrCBZ44pJb%2FwIWO7ZLnpBbAiRdqzYDNdK%2Fimg.png" width=120>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdw6UzX%2FbtrCBZ44pJb%2FwIWO7ZLnpBbAiRdqzYDNdK%2Fimg.png" width=240>
 
 
 <br>
