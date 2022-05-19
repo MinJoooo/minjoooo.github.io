@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Hands-On Machine Learning 1회독] Chapter 1. 한눈에 보는 머신러닝"
-categories: Hands-On-1st
+categories: Hands-On-Machine-Learning-1st
 tag: [python, Machine Learning]
 toc: false
 ---
