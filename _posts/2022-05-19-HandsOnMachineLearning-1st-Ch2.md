@@ -101,9 +101,9 @@ toc: false
 
 - Mean Absolute Error (MAE, 평균 절대 오차)
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuBYHM%2FbtrCBNYbZcE%2FK4jZ10pSVwcnkL2ukAqtB1%2Fimg.png" width=200>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuBYHM%2FbtrCBNYbZcE%2FK4jZ10pSVwcnkL2ukAqtB1%2Fimg.png" width=250>
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDHYlL%2FbtrCDDmjksk%2Fj5SPprgR1Wqg2So4G5poX0%2Fimg.png" width=200>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDHYlL%2FbtrCDDmjksk%2Fj5SPprgR1Wqg2So4G5poX0%2Fimg.png" width=250>
 
 
 <br>
@@ -139,7 +139,7 @@ toc: false
 
 - l_k norm: 원소가 n개인 vector v의 l_k norm은 다음과 같이 정의함. l_0는 단순히 vector에 있는 0이 아닌 원소의 수이고, l_∞는 vector에서 가장 큰 절댓값이 됨.
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBPge1%2FbtrCDCualTF%2F78uUyaKsEBCjJlFZeMJlMK%2Fimg.png" width=200>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBPge1%2FbtrCDCualTF%2F78uUyaKsEBCjJlFZeMJlMK%2Fimg.png" width=250>
 
 - norm 지수가 클수록 큰 value의 원소에 치우치며 작은 value가 무시됨 => RMSE가 MAE보다 조금 더 outlier에 민감함. 하지만 outlier가 매우 드물면 RMSE가 잘 맞음.
 
