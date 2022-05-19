@@ -101,9 +101,9 @@ toc: false
 
 - Mean Absolute Error (MAE, 평균 절대 오차)
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuBYHM%2FbtrCBNYbZcE%2FK4jZ10pSVwcnkL2ukAqtB1%2Fimg.png)<br>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuBYHM%2FbtrCBNYbZcE%2FK4jZ10pSVwcnkL2ukAqtB1%2Fimg.png" width=350>
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDHYlL%2FbtrCDDmjksk%2Fj5SPprgR1Wqg2So4G5poX0%2Fimg.png)<br>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDHYlL%2FbtrCDDmjksk%2Fj5SPprgR1Wqg2So4G5poX0%2Fimg.png" width=350>
 
 
 <br>
@@ -121,11 +121,11 @@ toc: false
 
 - h(hypothesis, 가설): system의 예측 function. system이 하나의 x^(i)를 받으면 그에 대한 prediction value로 hat(y^(i)) = h(x^(i))를 출력함. 예측 error는 hat(y^(i)) - y^(i)
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FLeWxJ%2FbtrCBppLPEX%2FQuKueRmAmGyOrlnkM42eAK%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FLeWxJ%2FbtrCBppLPEX%2FQuKueRmAmGyOrlnkM42eAK%2Fimg.png" width=200>
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbuK83p%2FbtrCAvRfZmH%2FStvEtAKYUNzaLMyYC6nly1%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbuK83p%2FbtrCAvRfZmH%2FStvEtAKYUNzaLMyYC6nly1%2Fimg.png" width=200>
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbydWNp%2FbtrCB1aLZsH%2Fcwp2ZSZU06saEReW54Z5jK%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbydWNp%2FbtrCB1aLZsH%2Fcwp2ZSZU06saEReW54Z5jK%2Fimg.png" width=450>
 
 
 <br>
@@ -139,7 +139,7 @@ toc: false
 
 - l_k norm: 원소가 n개인 vector v의 l_k norm은 다음과 같이 정의함. l_0는 단순히 vector에 있는 0이 아닌 원소의 수이고, l_∞는 vector에서 가장 큰 절댓값이 됨.
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBPge1%2FbtrCDCualTF%2F78uUyaKsEBCjJlFZeMJlMK%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBPge1%2FbtrCDCualTF%2F78uUyaKsEBCjJlFZeMJlMK%2Fimg.png" width=350>
 
 - norm 지수가 클수록 큰 value의 원소에 치우치며 작은 value가 무시됨 => RMSE가 MAE보다 조금 더 outlier에 민감함. 하지만 outlier가 매우 드물면 RMSE가 잘 맞음.
 
@@ -197,7 +197,7 @@ housing = load_housing_data()
 housing.head()
 ```
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb9LYCk%2FbtrCBqoz8aE%2FhZcOguQ9wwy3OiHLPaDAIK%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb9LYCk%2FbtrCBqoz8aE%2FhZcOguQ9wwy3OiHLPaDAIK%2Fimg.png" width=800>
 
 - info(): data에 대한 간략한 설명. 전체 row 수, 각 attribute의 data type의 null이 아닌 value의 개수를 확인하는 데 유용함.
 
@@ -205,7 +205,7 @@ housing.head()
 housing.info()
 ```
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbhcK4k%2FbtrCDbX1sX7%2F1gK6vKCxnGoGD3DmEIUDzK%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbhcK4k%2FbtrCDbX1sX7%2F1gK6vKCxnGoGD3DmEIUDzK%2Fimg.png" width=500>
 
 - value_counts(): 어떤 category가 있고 각 category마다 얼마나 많은 구역이 있는지
 
@@ -213,7 +213,7 @@ housing.info()
 housing["ocean_proximity"].value_counts()
 ```
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdDqPmI%2FbtrCDduMZuV%2FXjM4YCtQlonw9v2My8Ujp0%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdDqPmI%2FbtrCDduMZuV%2FXjM4YCtQlonw9v2My8Ujp0%2Fimg.png" width=200>
 
 - describe(): numerical attribute의 요약 information
 
@@ -221,7 +221,7 @@ housing["ocean_proximity"].value_counts()
 housing.describe()
 ```
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbObZEF%2FbtrCE2swApe%2FkBQifFA18sn85XsqKI6DSk%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbObZEF%2FbtrCE2swApe%2FkBQifFA18sn85XsqKI6DSk%2Fimg.png" width=800>
 
 - hist(): 모든 numerical attribute에 대한 histogram 출력
 
@@ -236,7 +236,7 @@ save_fig("attribute_histogram_plots")
 plt.show()
 ```
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFliKx%2FbtrCCFrxVWP%2FN119iIPuScmi8X21mC07CK%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFliKx%2FbtrCCFrxVWP%2FN119iIPuScmi8X21mC07CK%2Fimg.png" width=600>
 
 
 <br>
@@ -324,7 +324,7 @@ c: color. price을 나타냄.
 
 cmap (color map): jet 사용 => blue(low prices) ~ red(high prices)
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbl1obA%2FbtrCCgFxoEi%2FCZ48zz4Eg8Yi7bXkdF4Mc0%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbl1obA%2FbtrCCgFxoEi%2FCZ48zz4Eg8Yi7bXkdF4Mc0%2Fimg.png" width=500>
 
 
 <br>
@@ -343,7 +343,7 @@ corr_matrix = housing.corr()
 corr_matrix["median_house_value"].sort_values(ascending=False)
 ```
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqWzBB%2FbtrCE1An5yh%2FbKf2FSI3CnojKygokh8bVk%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqWzBB%2FbtrCE1An5yh%2FbKf2FSI3CnojKygokh8bVk%2Fimg.png" width=400>
 
 ```
 from pandas.plotting import scatter_matrix
@@ -354,13 +354,13 @@ scatter_matrix(housing[attributes], figsize=(12, 8))
 save_fig("scatter_matrix_plot")
 ```
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FceTsUp%2FbtrCAqookG5%2FJSWjsPdQ7yqPkEiWyKh1d1%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FceTsUp%2FbtrCAqookG5%2FJSWjsPdQ7yqPkEiWyKh1d1%2Fimg.png" width=600>
 
 왼쪽 위에서 오른쪽 아래로 가는 대각선 방향은 각 변수 자신에 대한 것이라 그냥 직선이 됨 => pandas는 이곳에 각 attribute의 histogram을 그림 
 
 - 여러 가지 dataset에 나타난 standard correlation coefficient
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbic9QC%2FbtrCEpBhahz%2FxcBPAhMGHIcHvfoll937UK%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbic9QC%2FbtrCEpBhahz%2FxcBPAhMGHIcHvfoll937UK%2Fimg.png" width=800>
 
 
 <br>
@@ -441,7 +441,7 @@ housing_cat_encoded = ordinal_encoder.fit_transform(housing_cat)
 housing_cat_encoded[:10]
 ```
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcBgYkq%2FbtrCArnlOPg%2FNg80mvps3j9CHeuekVSGbK%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcBgYkq%2FbtrCArnlOPg%2FNg80mvps3j9CHeuekVSGbK%2Fimg.png" width=200>
 
 value의 크기에 대한 상관성이 없다는 문제가 있음 (ex. 0과 1이 0과 4보다 더 가까운 특성이라는 보장이 없음)
 
@@ -464,7 +464,7 @@ housing_cat_1hot
 housing_cat_1hot.toarray()
 ```
 
-![png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdw6UzX%2FbtrCBZ44pJb%2FwIWO7ZLnpBbAiRdqzYDNdK%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdw6UzX%2FbtrCBZ44pJb%2FwIWO7ZLnpBbAiRdqzYDNdK%2Fimg.png" width=350>
 
 
 <br>
