@@ -51,7 +51,7 @@ plt.axis("off")
 plt.show()
 ```
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRVClP%2FbtrCKWGW3IB%2FeTFg8lBfEqnYizLwAiZUZ1%2Fimg.png" width=150>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRVClP%2FbtrCKWGW3IB%2FeTFg8lBfEqnYizLwAiZUZ1%2Fimg.png" width=100>
 
 
 <br>
