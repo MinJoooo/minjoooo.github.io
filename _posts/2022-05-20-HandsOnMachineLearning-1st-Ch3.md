@@ -265,7 +265,7 @@ plt.show()
 
 TPR이 높을수록 classifier가 만드는 FPR이 늘어남
 
-dotted line(점선)은 purely(완전한) random classifier의 ROC curve를 repreesent함. 좋은 classifier는 dotted line에서 최대한 멀리 떨어져 있어야 함. AUC measure로도 classifiers를 compare할 수 있음. purely classifier는 ROC의 AUC가 1이고, purelyrandom classifier의 ROC의 AUC가 0.5임. 
+dotted line(점선)은 purely(완전한) random classifier의 ROC curve를 repreesent함. 좋은 classifier는 dotted line에서 최대한 멀리 떨어져 있어야 함. AUC measure로도 classifiers를 compare할 수 있음. purely classifier는 ROC의 AUC가 1이고, purely random classifier의 ROC의 AUC가 0.5임. 
 
 - ROC curve와 PR (Precision/Recall) curve가 비슷해서 어떤 것을 사용할지 궁금할 수 있음. 일반적으로 positive class가 드물거나 FN보다 TP가 더 중요할 때 PR curve를 사용하고, 그렇지 않으면 ROC curve를 사용함.
 
