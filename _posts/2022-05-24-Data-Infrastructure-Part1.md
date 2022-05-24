@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Data Infrastructure] 이해하기 Part1 - ETL, ELT, Data Engineer, Data Analyst, Data Scientist"
+title: "[Data Infrastructure] 이해하기 Part 1 - ETL, ELT, Data Engineer, Data Analyst, Data Scientist"
 categories: Data-Infrastructure
 tag: [Data Infrastructure]
 toc: false
