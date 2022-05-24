@@ -29,13 +29,13 @@ toc: false
 
 ### Data Infrastructure Architecture
 
-- Source: 회사 내에 모든 data가 만들어지는 곳
+- Source: data가 만들어지는 곳
 
-- Ingestion and Transformation: data를 가져와서 변환
+- Ingestion and Transformation: data를 가져와서 transform
 
 - Storage: 저장소
 
-- Historical: 가져온 (예전) data를 분석
+- Historical: 가져온 data로 과거를 분석
 
 - Predictive: 분석한 내용으로 미래를 예측
 
