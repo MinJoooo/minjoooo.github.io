@@ -11,17 +11,17 @@ toc: false
 <br>
 
 ###### 2022.05.24.
-###### Data Infrastructure 이해하기 1
+###### Data Infrastructure 이해하기 Part 1
 ###### (ETL, ELT, Data Engineer, Data Analyst, Data Scientist)
 
 <br>
 <br>
 <br>
 
-<center>
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb6QWME%2FbtrC0QGjg3M%2FKFQOjcIcMC6PixmxyoLBF1%2Fimg.jpg" width=800>
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb6QWME%2FbtrC0QGjg3M%2FKFQOjcIcMC6PixmxyoLBF1%2Fimg.jpg" width=800><br>
   출처: Emerging Architectures for Modern Data Infrastructure: 2020
-</center>
+</p>
 
 
 <br>
@@ -47,9 +47,9 @@ toc: false
 
 ### Data Infrastructure의 목적
 
-- 비즈니스 리더들의 의사결정을 도와주기
+- business leader의 의사결정을 도와주기
 
-- 서비스/제품을 데이터의 도움을 받아 향상시키기
+- service/product를 data의 도움을 받아 향상시키기
 
 
 <br>
@@ -80,7 +80,13 @@ toc: false
 - extract와 load 과정을 자동화 할 수 있음.
 
 
-- - -
+<br>
+
+
+---
+
+
+<br>
 
 
 ### Data Engineer
