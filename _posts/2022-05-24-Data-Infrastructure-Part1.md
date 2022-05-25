@@ -65,19 +65,20 @@ toc: false
 <br>
 
 
-### ETL (Extract, Transform, Load)
+### ETL과 ELT
 
-- data를 production system에서 extract(추출)하여, normalized schema에서 dimensional schema로 transform(변환) 후, data warehouse에 load(적재)함.
+- ETL (Extract, Transform, Load)
 
-- extract와 transform 과정이 자동화 될 수 없고, transform 과정이 회사마다 다르다는 문제점이 있음. => ELT가 나옴.
+  * data를 extract(추출)하여, transform(변환) 후에, data warehouse에 load(적재)함. 일반적으로 production system에서 extract하여 dimensional schema로 transform 후에 data warehouse에 load함.
 
+- ELT (Extract, Load, Transform)
 
-<br>
+  * data를 extract하여, load 후에, transform함.
 
+- ETL → ELT로 넘어가는 이유
 
-### ELT (Extract, Load, Transform)
-
-- extract와 load 과정을 자동화 할 수 있음.
+  * ETL에서는 extract와 transform 과정이 자동화 될 수 없고, transform 과정이 회사마다 다르다는 문제점이 있음. => ELT가 나옴. ELT에서는 extract와 load 과정을 자동화 할 수 있음.
+  * transform 과정에서의 computing resource 비용보다 load 과정에서의 저장공간의 비용이 더 저렴해짐. => 저장공간이 저렴하니 load를 먼저 한 후 다양한 용도로 transform해볼 수 있는 ELT가 더 효율적임.
 
 
 <br>
@@ -115,9 +116,11 @@ toc: false
 
 ### Data Scientist
 
-- 수학자 + 과학자 + 도메인 전문가. big data도 잘 다루고 복잡한 문제를 해결하는 사람.
+- 수학자 + 과학자 + 도메인 전문가. big data를 잘 다루고 복잡한 문제를 해결하는 사람.
 
-- 요구기술: math, statistics, ML, DL, 분산 컴퓨팅, data modeling, story telling, visualization, domain 지식, communication
+- 현업에서는 Data engineer + Data analyst를 의미하기도 하고, Data Analyst의 상위 직군을 의미하기도 함.
+
+- 요구기술: math, statistics, ML, DL, 분산 computing, data modeling, story telling, visualization, domain 지식, communication
 
 - 주 사용 언어: SQL, Python, R
 
