@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "[Data Infrastructure] 이해하기 Part 3 - Connector, Data Modeling, Workflow Manager, Spark Platform, Python Library"
+categories: Data-Infrastructure
 tag: [Data Infrastructure]
 toc: false
 ---
