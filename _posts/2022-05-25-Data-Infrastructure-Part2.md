@@ -9,7 +9,7 @@ toc: false
 <br>
 <br>
 
-###### 2022.05.24.
+###### 2022.05.25.
 ###### Data Infrastructure 이해하기 Part 2
 ###### (Data Source, OLTP, OLAP, CDC, ERP, Event collector, 3rd party)
 
