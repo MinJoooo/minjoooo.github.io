@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Big Data] GFS, MapReduce, Hadoop, Spark 알아보기"
-categories: Big Data
+categories: Big-Data
 tag: [Big Data, GFS, MapReduce, Hadoop, Spark]
 toc: false
 ---
