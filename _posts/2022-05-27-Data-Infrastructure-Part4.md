@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "[Data Infrastructure] 이해하기 Part 4 - Batch Query Engine, Event Streaming, Stream processing"
+categories: Data-Infrastructure
 tag: [Data Infrastructure]
 toc: false
 ---
