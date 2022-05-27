@@ -11,7 +11,7 @@ toc: false
 
 ###### 2022.05.24.
 ###### Data Infrastructure 이해하기 Part 3
-###### 
+######  
 
 <br>
 <br>
