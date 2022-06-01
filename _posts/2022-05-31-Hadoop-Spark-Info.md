@@ -19,7 +19,7 @@ toc: false
 
 
 <p align="center">
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZH4Xs%2FbtrDE0Ht3Gb%2FrVwcqkdjIZ1jJJ3DBteqfK%2Fimg.png" width=800>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZH4Xs%2FbtrDE0Ht3Gb%2FrVwcqkdjIZ1jJJ3DBteqfK%2Fimg.png" width=800>
 </p>
 
 
@@ -75,13 +75,13 @@ toc: false
 
 
 <p align="center">
-||Hadoop MapReduce|Spark|
-|:---:|:---:|:---:|
-|Speed||MapReduce보다 100배 더 빠름|
-|Written In|Java|Scala|
-|Data Processing|Batch processing|Batch / Real-time / Iterative / Interactive / Graph|
-|Ease of Use||Hadoop보다 간단하고 쉬움|
-|Caching|data caching을 지원하지 않음|In-Memory Cache라 더 빠름|
+  ||Hadoop MapReduce|Spark|
+  |:---:|:---:|:---:|
+  |Speed||MapReduce보다 100배 더 빠름|
+  |Written In|Java|Scala|
+  |Data Processing|Batch processing|Batch / Real-time / Iterative / Interactive / Graph|
+  |Ease of Use||Hadoop보다 간단하고 쉬움|
+  |Caching|data caching을 지원하지 않음|In-Memory Cache라 더 빠름|
 </p>
   
 
