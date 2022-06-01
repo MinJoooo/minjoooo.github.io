@@ -74,16 +74,14 @@ toc: false
 - 하지만 시간이 지나면서 여러 단점들이 보이기 시작함 => 그래서 대안으로 나온 것이 Spark임. Spark는 MapReduce와 비슷한 목적의 업무를 수행하는데 메모리를 활용한 굉장히 빠른 데이터 처리를 할 수 있다는 특징이 있음.
 
 
-<p align="center">
-  ||Hadoop MapReduce|Spark|
-  |:---:|:---:|:---:|
-  |Speed||MapReduce보다 100배 더 빠름|
-  |Written In|Java|Scala|
-  |Data Processing|Batch processing|Batch / Real-time / Iterative / Interactive / Graph|
-  |Ease of Use||Hadoop보다 간단하고 쉬움|
-  |Caching|data caching을 지원하지 않음|In-Memory Cache라 더 빠름|
-</p>
-  
+||Hadoop MapReduce|Spark|
+|:---:|:---:|:---:|
+|Speed||MapReduce보다 100배 더 빠름|
+|Written In|Java|Scala|
+|Data Processing|Batch processing|Batch / Real-time / Iterative / Interactive / Graph|
+|Ease of Use||Hadoop보다 간단하고 쉬움|
+|Caching|data caching을 지원하지 않음|In-Memory Cache라 더 빠름|
+              
 
 <br>
 
