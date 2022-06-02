@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Data Engineering] GFS, MapReduce, Hadoop 알아보기"
-categories: Data-Engineering
-tag: [Data Engineering]
+title: "[Data Infrastructure] GFS, MapReduce, Hadoop 알아보기"
+categories: Data-Infrastructure
+tag: [Data Infrastructure]
 toc: false
 ---
 
