@@ -124,17 +124,17 @@ toc: false
 
 - MapReduce의 data 처리 단계
 
-1. cluster에서 data 읽기
-2. 동작 실행
-3. cluster에 결과 기록
-4. update된 내용 읽기
-5. 다음 동작 실행
-6. cluster에 결과 기록
+  1. cluster에서 data 읽기
+  2. 동작 실행
+  3. cluster에 결과 기록
+  4. update된 내용 읽기
+  5. 다음 동작 실행
+  6. cluster에 결과 기록
 
 - Spark의 data 처리 단계
 
-1. cluster에서 data 읽기
-2. analytics 운영 수행 및 결과값 cluster 입력 동작과 같은 전 과정이 동시 진행
+  1. cluster에서 data 읽기
+  2. analytics 운영 수행 및 결과값 cluster 입력 동작과 같은 전 과정이 동시 진행
 
 - Spark는 Hadoop과 달리 2단계로 처리가 되므로 일반적 상황에서 Spark의 data 처리 속도가 Hadoop에 비해 월등히 빠름. batch processing의 경우에는 Spark가 Hadoop의 MapReduce에 비해 10배 더 빠르고, In-Memory analytics의 경우에는 100배 더 빠른 수행 속도를 낸다고 함.
 
