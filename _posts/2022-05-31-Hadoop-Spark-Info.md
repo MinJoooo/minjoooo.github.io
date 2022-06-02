@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Data Engineering] Hadoop, Spark 알아보기"
-categories: Data-Engineering
-tag: [Data Engineering]
+title: "[Data Infrastructure] Hadoop, Spark 알아보기"
+categories: Data-Infrastructure
+tag: [Data Infrastructure]
 toc: false
 ---
 
