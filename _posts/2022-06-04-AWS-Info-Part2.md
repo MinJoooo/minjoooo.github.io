@@ -31,6 +31,8 @@ toc: false
   AWS 계정을 처음 만들었을 때 제공되는 것들
 </p>
 
+<br>
+
 - Root user
 
   * 계정 생성시 만든 e-mail 주소로 log-in
@@ -38,6 +40,8 @@ toc: false
   * 탈취당했을 때 복구가 매우 힘듦 => 사용을 자제하고 MFA 설정이 필요함
   * root user는 관리용으로만 이용하는 것이 좋음 (ex. 계정 설정 변경, billing)
   * AWS API 호출 불가 => AccessKey, Secret AccessKey 부여가 불가함
+
+<br>
 
 - IAM(Identity and Access Management) user
 
@@ -61,6 +65,8 @@ toc: false
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fk1PFd%2FbtrDUI8b4mL%2FEt638zVPujz9V1OED2Ld3k%2Fimg.png" width=300>
 </p>
 
+<br>
+
 - region 변경
 
   * 오른쪽 상단에서 region을 서울로 변경
@@ -68,6 +74,8 @@ toc: false
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdFSrQL%2FbtrDVn3jjI1%2FZQHSY4rre9a3rhLzd4QKq1%2Fimg.png" width=400>
 </p>
+
+<br>
 
 - MFA 설정
 
@@ -80,6 +88,8 @@ toc: false
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcjMzn7%2FbtrDU4CW3Xd%2FKCxQ5QXkxffy7lC6VnM2I1%2Fimg.png" width=500>
 </p>
 
+<br>
+
 - IAM user 생성
 
   * 왼쪽에 '대시보드' 선택 => 오른쪽 'AWS 계정'에서 '계정 별칭' 설정. IAM 계정 log-in시 계정 별칭으로 log-in 가능함.
@@ -90,9 +100,13 @@ toc: false
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FxUHTA%2FbtrDUuCDki5%2FVaBCvvppAwqpqJaB7Zzfa0%2Fimg.png" width=600>
 </p>
 
+<br>
+
 - IAM user에 MFA 설정
 
   * 왼쪽에 '사용자' 선택 => MFA를 설정할 user 선택 => '보안 자격 증명' 선택 => '할당된 MFA 디바이스'에 '관리' 선택
+
+<br>
 
 - root user log-out 후 IAM user log-in
 
