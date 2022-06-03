@@ -120,4 +120,29 @@ toc: false
 <br>
 
 
+### IAM(Identity and Access Management) User
+
+- 구성
+
+  * User: 실제 AWS를 사용하는 사람 또는 application을 의미
+  * Group: user의 집합. group에 속한 user는 group에 부여된 권한을 행사함.
+  * Role: AWS resource에 부여하여 AWS resource가 무엇을 할 수 있는지를 정의함. 또는 다른 user가 role을 부여받아 사용 가능함. 다른 자격에 대해 신뢰관계를 구축 가능함. role을 바꾸어가며 service를 사용 가능함.
+  * Policy: user와 group, role이 무엇을 할 수 있는지에 관한 문서. JSON 형식으로 정의됨.
+
+<br>
+
+- IAM 모범 사용 사례
+
+  * root user는 사용하지 않기
+  * 불필요한 user를 만들지 않기
+  * 가능하면 group과 policy를 사용하기
+  * 최소한의 권한만을 허용하는 습관을 들이기 (Principle of least privilege)
+  * MFA를 활성화하기
+  * AccessKey 대신 role을 활용하기
+  * IAM Credential Report(자격 증명 보고서) 활용하기
+
+
+<br>
+
+
 참고: AWS 강의실(https://www.youtube.com/c/AAAWS)
