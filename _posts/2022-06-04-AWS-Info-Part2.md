@@ -27,7 +27,7 @@ toc: false
   * 계정을 처음 생성하면 root user와 기본 resource(기본 VPC) 등이 생성됨.
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbHrmyw%2FbtrDSyslB6D%2FwSI0UwjjiCxRsWkZJsKMzK%2Fimg.png" width=600>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbHrmyw%2FbtrDSyslB6D%2FwSI0UwjjiCxRsWkZJsKMzK%2Fimg.png" width=600><br>
   AWS 계정을 처음 만들었을 때 제공되는 것들
 </p>
 
