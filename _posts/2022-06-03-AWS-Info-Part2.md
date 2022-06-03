@@ -84,7 +84,7 @@ toc: false
   * 휴대폰에 '구글 OTP' application download => QR code scan 후 MFA code 입력
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb0j8XR%2FbtrDUHBQDIY%2FcgYFeCavw0vKFXp6s7xgGK%2Fimg.png" width=600>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb0j8XR%2FbtrDUHBQDIY%2FcgYFeCavw0vKFXp6s7xgGK%2Fimg.png" width=600><br>
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcjMzn7%2FbtrDU4CW3Xd%2FKCxQ5QXkxffy7lC6VnM2I1%2Fimg.png" width=500>
 </p>
 
@@ -96,7 +96,7 @@ toc: false
   * 왼쪽에 '사용자' 선택 => 오른쪽 위에 '사용자 추가' 선택 => '액세스 키', '암호' 선택 => '사용자 지정 비밀번호' 설정 => 나만 사용할 것이니 '비밀번호 재설정 필요' 미선택. 만약 선택한다면, 다른 사람한테 넘겨주었을 때 그 사람이 log-in할 때 비밀번호를 재설정해서 사용할 수 있음. => '권한 설정'에서 '기존 정책 직접 연결' 선택 => 'AdministratorAccess' 선택. billing을 제외한 AWS의 모든 권한을 부여하는 것임. => 사용자 생성 완료하기
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcqqNgN%2FbtrDU1TSQcP%2FVMPpvhuTEkMKD0ZEIlYH20%2Fimg.png" width=600>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcqqNgN%2FbtrDU1TSQcP%2FVMPpvhuTEkMKD0ZEIlYH20%2Fimg.png" width=600><br>
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FxUHTA%2FbtrDUuCDki5%2FVaBCvvppAwqpqJaB7Zzfa0%2Fimg.png" width=600>
 </p>
 
