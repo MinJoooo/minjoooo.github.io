@@ -34,8 +34,8 @@ toc: false
 
 - OS와 Virtualization이 등장하기 전
 
-  * OS: system HW 자원과 SW 자원을 운영 관리하는 program (ex. Windows, Linux, MacOS, Android)
-  * Privileged Instruction(특권 명령): system 요소들과 소통할 수 있는 명령. OS만 가능함.
+  * **OS**: system HW 자원과 SW 자원을 운영 관리하는 program (ex. Windows, Linux, MacOS, Android)
+  * **Privileged Instruction(특권 명령)**: system 요소들과 소통할 수 있는 명령. OS만 가능함.
   * 하나의 HW system에서 privileged instruction이 필요없는 일반 program은 동시에 여러 개를 수행 가능하였지만, privileged instruction과 소통할 수 있는 OS는 하나만 실행이 가능하였음. => virtualization이 나타나기 전까지는 하나의 HW system당 하나의 OS만 실행이 가능하였음. 즉, 일반적인 computer처럼 Bare-Metal(직접 OS가 HW에 설치된 상태)로만 운영이 가능했었음.
 
 <br>
@@ -45,7 +45,7 @@ toc: false
   * CPU, hard disk, mother board 등의 모든 system 요소를 emulator(기능을 구현한 program)로 구현하여 OS와 연동함 => 엄청나게 느림
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbxXW8K%2FbtrDWEq2EEn%2FT7MsBRFUxSEsc6c1KOjgj1%2Fimg.png" width=300>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbxXW8K%2FbtrDWEq2EEn%2FT7MsBRFUxSEsc6c1KOjgj1%2Fimg.png" width=200>
 </p>
 
 <br>
@@ -55,7 +55,7 @@ toc: false
   * Guest OS(main OS가 아닌 system 안의 OS)는 hypervisor(OS와 HW 사이에 존재하는 일종의 virtualization manager)와 통신함  =>  속도가 향상되었지만, 몇몇 요소의 경우 여전히 emulator가 필요해서 느림
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdug1WI%2FbtrDXoH1OH0%2FfYzY4TSdvUMR00JFKYZH3k%2Fimg.png" width=300>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdug1WI%2FbtrDXoH1OH0%2FfYzY4TSdvUMR00JFKYZH3k%2Fimg.png" width=200>
 </p>
 
 <br>
@@ -65,7 +65,7 @@ toc: false
   * HW에서 직접 virtualization을 지원함 => 직접 Guest OS가 HW와 통신함 => 속도가 빨라짐(near bare-metal)
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FutBk5%2FbtrDXnWF567%2FqlkdJm9E6GijA0FqU0ZPpk%2Fimg.png" width=300>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FutBk5%2FbtrDXnWF567%2FqlkdJm9E6GijA0FqU0ZPpk%2Fimg.png" width=200>
 </p>
 
 <br>
