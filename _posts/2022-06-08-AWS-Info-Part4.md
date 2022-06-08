@@ -128,7 +128,7 @@ toc: false
   * web server를 설치할 것이기 때문에 오른쪽 상단의 '연결' 선택 => 그대로 둔 채 '연결' 선택 =>  EC2 connector(web browser에서 직접 EC2 instance로 접속하는 것)로 접속됨
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtpWy1%2FbtrEiMWWNCs%2FwLLLRkCHksmEEoBrnWzjBK%2Fimg.png" width=600>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtpWy1%2FbtrEiMWWNCs%2FwLLLRkCHksmEEoBrnWzjBK%2Fimg.png" width=450>
 </p>
 
 <br>
