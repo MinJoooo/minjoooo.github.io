@@ -65,9 +65,9 @@ toc: false
 
 <br>
 
-- 실습 과정 (1) - Instance 생성
+**실습 과정 (1) - Instance 생성**
 
-  * 'EC2' 검색 후 선택
+* 'EC2' 검색 후 선택
 
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcLXkN9%2FbtrEkqMlM7Z%2FGFzHuqMu0xaqCl1HvSe9VK%2Fimg.png" width=600>
@@ -75,7 +75,7 @@ toc: false
 
 <br>
 
-  * 왼쪽 메뉴에서 '인스턴스' 선택 후 오른쪽 상단의 '인스턴스 시작' 선택
+* 왼쪽 메뉴에서 '인스턴스' 선택 후 오른쪽 상단의 '인스턴스 시작' 선택
 
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FncbC2%2FbtrElc1pfMc%2FkPwK7ipT16Kcib7F2kdsK1%2Fimg.png" width=600>
@@ -83,7 +83,7 @@ toc: false
 
 <br>
 
-  * '이름 및 태그'에서 '태그 추가' 선택 => '키'에는 'Name'을, '값'에는 'MyWebServer'라고 입력 ('Name'에서 'N'을 꼭 대문자로 해야함)
+* '이름 및 태그'에서 '태그 추가' 선택 => '키'에는 'Name'을, '값'에는 'MyWebServer'라고 입력 ('Name'에서 'N'을 꼭 대문자로 해야함)
 
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDj9Bg%2FbtrEkpGIP8d%2FfncmmgTihiXUqLnUH9KBP0%2Fimg.png" width=450>
@@ -91,7 +91,7 @@ toc: false
 
 <br>
 
-  * 나중에 web server에 접속할 때 key pair가 반드시 필요함 => '키 페어'에서 '기존 키 페어 선택'을 해도 되고 '새 키 페어 생성'을 해도 됨 => '새 키 페어 생성'을 선택 => 이름을 'MyWebServerKP'로 변경 (다른 이름도 상관없음)
+* 나중에 web server에 접속할 때 key pair가 반드시 필요함 => '키 페어'에서 '기존 키 페어 선택'을 해도 되고 '새 키 페어 생성'을 해도 됨 => '새 키 페어 생성'을 선택 => 이름을 'MyWebServerKP'로 변경 (다른 이름도 상관없음)
 
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFUjSp%2FbtrEjiBlD1D%2F2amQZlCU1n2zpYU8OB4Quk%2Fimg.png" width=400>
@@ -99,7 +99,7 @@ toc: false
 
 <br>
 
-  * 외부(web browser)에서 접속 test를 할 것이기 때문에 Security Group 생성이 필요함 => '네트워크 설정'에서 오른쪽의 '편집' 선택 => '보안 그룹 생성' 선택 => 이름을 'MyWebServerSG'로 변경 (다른 이름도 상관없음) => 'Add security group rule' 선택 => '유형'에서 'HTTP' 선택 (web server는 http protocol로 접속하기 때문임) => '원본'에서 '0.0.0.0/0'과 '::/0' 선택 => FTP를 사용할 때 key pair가 반드시 필요하기 때문에 download 받은 key pair file(pem 형식)은 잘 보관해야 됨
+* 외부(web browser)에서 접속 test를 할 것이기 때문에 Security Group 생성이 필요함 => '네트워크 설정'에서 오른쪽의 '편집' 선택 => '보안 그룹 생성' 선택 => 이름을 'MyWebServerSG'로 변경 (다른 이름도 상관없음) => 'Add security group rule' 선택 => '유형'에서 'HTTP' 선택 (web server는 http protocol로 접속하기 때문임) => '원본'에서 '0.0.0.0/0'과 '::/0' 선택 => FTP를 사용할 때 key pair가 반드시 필요하기 때문에 download 받은 key pair file(pem 형식)은 잘 보관해야 됨
 
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcc85dy%2FbtrEjLJ1Fng%2FVTdhSrFQDhroK8lC3NDQuK%2Fimg.png" width=450><br>
@@ -108,7 +108,7 @@ toc: false
 
 <br>
 
-  * 나머지는 일단 모두 기본값으로 설정 => 'AMI(Amazon Machine Image)'에서 'Amazon Linux 2 AMI' 선택, 'Instance 유형'에서 't2.micro' 선택, 'Storage 구성'에서 '8', 'gp2' 선택
+* 나머지는 일단 모두 기본값으로 설정 => 'AMI(Amazon Machine Image)'에서 'Amazon Linux 2 AMI' 선택, 'Instance 유형'에서 't2.micro' 선택, 'Storage 구성'에서 '8', 'gp2' 선택
 
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5Palm%2FbtrEiNhfspO%2Fnq5gy5jEx4r7j2SWCB1Qr1%2Fimg.png" width=450>
@@ -116,8 +116,8 @@ toc: false
 
 <br>
 
-  * 오른쪽 하단의 '인스턴스 시작' 선택
-  * 조금 기다리면 '인스턴스' 화면에 뜸.
+* 오른쪽 하단의 '인스턴스 시작' 선택
+* 조금 기다리면 '인스턴스' 화면에 뜸.
 
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FVJPBH%2FbtrEiaD2u3E%2FAcaHzXY3PMCNCXfdZQy8iK%2Fimg.png" width=800>
@@ -125,7 +125,7 @@ toc: false
 
 <br>
 
-  * web server를 설치할 것이기 때문에 오른쪽 상단의 '연결' 선택 => 그대로 둔 채 '연결' 선택 =>  EC2 connector(web browser에서 직접 EC2 instance로 접속하는 것)로 접속됨
+* web server를 설치할 것이기 때문에 오른쪽 상단의 '연결' 선택 => 그대로 둔 채 '연결' 선택 =>  EC2 connector(web browser에서 직접 EC2 instance로 접속하는 것)로 접속됨
 
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtpWy1%2FbtrEiMWWNCs%2FwLLLRkCHksmEEoBrnWzjBK%2Fimg.png" width=450>
@@ -133,9 +133,9 @@ toc: false
 
 <br>
 
-- 실습 과정 (2) - EC2 connector
+**실습 과정 (2) - EC2 connector**
 
-  * EC2 connector 접속 => 'sudo -s'를 입력하여 권한 획득 => 'yum install httpd -y'를 입력하여 web server를 설치
+* EC2 connector 접속 => 'sudo -s'를 입력하여 권한 획득 => 'yum install httpd -y'를 입력하여 web server를 설치
 
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtRmvj%2FbtrEiNn3c0T%2FCWtBKuMKQHbvNhSrINBLT1%2Fimg.png" width=600>
@@ -143,7 +143,7 @@ toc: false
 
 <br>
 
-  * 'service httpd start'를 입력하여 web server를 실행 => 하단의 '퍼블릭 IP' 값을 url 창에 입력 => test page가 생성된 것을 확인
+* 'service httpd start'를 입력하여 web server를 실행 => 하단의 '퍼블릭 IP' 값을 url 창에 입력 => test page가 생성된 것을 확인
 
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcyj9WH%2FbtrEjUtbeNt%2FxKEWeoIwORbAzl22GFlQQ1%2Fimg.png" width=400><br>
@@ -152,7 +152,7 @@ toc: false
 
 <br>
 
-  * test page가 허전하니 index.html file을 만들기로 함 (index.html file은 user가 처음으로 접속했을 때 보이는 page임) => 'nano /var/www/html/index.html'을 입력 => 원하는 내용 작성 후 저장을 위해 'Ctrl + X' 입력 => 저장할 것이냐는 물음에 'Y' 입력 => 'Enter' 입력하여 빠져나옴
+* test page가 허전하니 index.html file을 만들기로 함 (index.html file은 user가 처음으로 접속했을 때 보이는 page임) => 'nano /var/www/html/index.html'을 입력 => 원하는 내용 작성 후 저장을 위해 'Ctrl + X' 입력 => 저장할 것이냐는 물음에 'Y' 입력 => 'Enter' 입력하여 빠져나옴
 
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcleW76%2FbtrEhZpal96%2FVhGLXqmg5ufS0xbot2LBB0%2Fimg.png" width=600>
@@ -160,7 +160,7 @@ toc: false
 
 <br>
 
-  * 다시 하단의 '퍼블릭 IP' 값을 url 창에 입력하여 page에 들어가면 내용이 변한 것을 확인할 수 있음.
+* 다시 하단의 '퍼블릭 IP' 값을 url 창에 입력하여 page에 들어가면 내용이 변한 것을 확인할 수 있음.
 
 <p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FzbH6h%2FbtrEhq8yvKz%2FpDCkb8ILeiNknxCi5wdgT1%2Fimg.png" width=800>
@@ -168,7 +168,7 @@ toc: false
 
 <br>
 
-- 실습 과정 (3) - EC2 종료
+**실습 과정 (3) - EC2 종료**
 
   * 인스턴스를 중지시키거나 종료시키지 않으면 돈이 계속 나감 => 왼쪽 메뉴에서 '인스턴스' 선택 후 종료할 인스턴스를 선택 => 마우스 오른쪽 버튼 클릭 후 '인스턴스 중지'나 '인스턴스 종료' 선택 ('인스턴스 중지'를 해도 EBS 요금은 계속 나가기 때문에 사용하지 않을 것이라면 '인스턴스 종료'를 해야 함)
 
