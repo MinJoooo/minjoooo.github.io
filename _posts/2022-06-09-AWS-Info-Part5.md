@@ -45,7 +45,8 @@ toc: false
   * 주로 시작과 종료가 자유롭거나 추가적인 computing power가 필요한 경우 사용함 (ex. big data 처리, ML 등 많은 instance가 필요한 작업) => Hadoop과 같은 cluster system의 경우 manager가 instance의 task를 관리하기 때문에 여러 instance가 사용과 반납을 반복해도 문제가 없음. 오히려 싼 가격에 많은 instance를 사용하면 더 좋음.
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcoUytz%2FbtrEnDzr8er%2FrxgGAGfUqOIPy0gSyHDY5k%2Fimg.png" width=450>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcoUytz%2FbtrEnDzr8er%2FrxgGAGfUqOIPy0gSyHDY5k%2Fimg.png" width=450><br>
+  Spot Instance 가격이 변동됨에 따라 사용을 시작하고 반납을 함
 </p>
 
 <br>
