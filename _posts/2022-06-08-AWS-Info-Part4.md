@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[AWS] AWS 알아보기 Part 4 - EC2 소개 및 실습 (1)"
+title: "[AWS] AWS 알아보기 Part 4 - EC2 소개 및 실습"
 categories: AWS
 tag: [AWS]
 toc: false
@@ -49,7 +49,7 @@ toc: false
 
   * **Instance**: cloud에서 사용하는 가상 server로 CPU, memory, graphic card 등 연산을 위한 HW를 담당
   * **EBS(Elastic Block Storage)**: cloud에서 사용하는 가상 hard disk
-  * **AMI**: EC2 instance를 실행하기 위한 정보를 담고 있는 image
+  * **AMI(Amazon Machine Image)**: EC2 instance를 실행하기 위한 정보를 담고 있는 image
   * **Security Group**: 가상의 방화벽
 
 
