@@ -103,8 +103,8 @@ toc: false
 
 - Type에 따른 AMI의 생성 방법
 
-  * EBS: Snapshot을 기반으로 root device 생성
-  * Instance store: S3에 저장된 template를 기반으로 생성
+  * **EBS**: Snapshot을 기반으로 root device 생성
+  * **Instance store**: S3에 저장된 template를 기반으로 생성
 
 <br>
 
