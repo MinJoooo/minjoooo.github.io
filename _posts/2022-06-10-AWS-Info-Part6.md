@@ -38,12 +38,12 @@ toc: false
   * 5가지 type을 제공: General Purpose(범용), Provisioned IOPS, Throughput Optimized HDD, Cold Hdd, Magnetic 
 
 <p align="center">
-  <img src="" width=300><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBia3X%2FbtrEntKHMwZ%2F3XKs74cM9BRww88Ldr1R21%2Fimg.png" width=400><br>
   instance와 EBS는 network로 연결됨<br>
 </p>
 
 <p align="center">
-  <img src="" width=300><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FV8aA5%2FbtrEtMJEIy9%2F7JawsgFCVgtT5sMW6mmSZ0%2Fimg.png" width=600><br>
   EBS의 5가지 type<br>
 </p>
 
