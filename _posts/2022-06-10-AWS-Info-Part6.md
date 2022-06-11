@@ -95,7 +95,7 @@ toc: false
   * network로 연결된 EBS 기반보다 물리적으로 연결된 Instance store 기반이 속도가 더 빠름. 대신 Instance store 기반은 EC2 instance가 삭제되면 무조건 같이 삭제된다는 단점이 있음. 보통 영구적이지 않은 data(cache data), 복구가 가능한 data, 속도가 굉장히 중요한데 꼭 저장할 필요가 없는 data를 Instance store 기반에 저장함.
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtGEDY%2FbtrEvm4bfYC%2FNvHuSMiHCTNTEZkKbAxKa1%2Fimg.png" width=500><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtGEDY%2FbtrEvm4bfYC%2FNvHuSMiHCTNTEZkKbAxKa1%2Fimg.png" width=400><br>
   왼쪽은 EBS 기반, 오른쪽은 Instance store 기반<br>
 </p>
 
