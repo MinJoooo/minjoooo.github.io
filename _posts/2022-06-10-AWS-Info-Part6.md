@@ -56,12 +56,12 @@ toc: false
   * S3에 보관하고, 증분식으로 저장(변화된 부분만 저장)함 
 
 <p align="center">
-  <img src="" width=300><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmF4kh%2FbtrEvnhCLjj%2FA0ImBHkk4Bfsdt2ZeOSaxk%2Fimg.png" width=500><br>
   다음과 같이 변화될 때마다 state를 저장하면 memory가 많이 필요함<br>
 </p>
 
 <p align="center">
-  <img src="" width=300><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcqRMp6%2FbtrEvnBTOv9%2Fbbbu2NtVSy3kP6qb2Copz0%2Fimg.png" width=500><br>
   증분식 저장: 다음과 같이 추가/삭제되는 action만 저장하는 것<br>
 </p>
 
@@ -95,7 +95,7 @@ toc: false
   * network로 연결된 EBS 기반보다 물리적으로 연결된 Instance store 기반이 속도가 더 빠름. 대신 Instance store 기반은 EC2 instance가 삭제되면 무조건 같이 삭제된다는 단점이 있음. 보통 영구적이지 않은 data(cache data), 복구가 가능한 data, 속도가 굉장히 중요한데 꼭 저장할 필요가 없는 data를 Instance store 기반에 저장함.
 
 <p align="center">
-  <img src="" width=300><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtGEDY%2FbtrEvm4bfYC%2FNvHuSMiHCTNTEZkKbAxKa1%2Fimg.png" width=500><br>
   왼쪽은 EBS 기반, 오른쪽은 Instance store 기반<br>
 </p>
 
@@ -113,7 +113,7 @@ toc: false
   * EBS의 Snapshot을 찍은 후 S3에 저장 => 이를 기반으로 AMI를 만듦 => 이를 이용하여 EC2를 실행하거나 복제한 AMI를 공유하는 작업을 함
 
 <p align="center">
-  <img src="" width=300><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FPcceL%2FbtrEwi76bjh%2FO0IPrR8aFxZ3Nh6UVSkKLK%2Fimg.png" width=600><br>
 </p>
 
 
@@ -129,164 +129,71 @@ toc: false
   * **암호화됨**: 'No'를 선택해도 됨. 여기서 암호화는, data를 암호화하는 것이 아니라 hard disk를 암호화하는 것임. 누가 AWS에 들어와서 EBS를 빼간다고 해도 우리의 data는 안전하다는 뜻임. 실제로 물리적으로 쓰일 때 암호화시키는 것이기 때문에 우리는 암호화의 차이를 직접적으로 느끼지 못할 것임.
 
 <p align="center">
-  <img src="" width=300><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbFPo0b%2FbtrEvnhKzTT%2FVK1ujbNFLgnN6SrzfIigtk%2Fimg.png" width=600><br>
 </p>
 
 <br>
 
-- 실습 과정 (1) - Instance 생성 후 EC2 connector
+** 실습 과정 (1) - Instance 생성 후 EC2 connector **
 
-  * 이전 글을 참고하여 Instance 생성
-  * 이전 글을 참고하여 EC2 connector 접속 후 index.html file까지 만듦
-  * '인스턴스' 화면 => Instance 선택 => '퍼블릭 IPv4 DNS' 주소로 들어가도 index.html 화면이 나옴
+* 이전 글을 참고하여 Instance 생성
+* 이전 글을 참고하여 EC2 connector 접속 후 index.html file까지 만듦
+* '인스턴스' 화면 => Instance 선택 => '퍼블릭 IPv4 DNS' 주소로 들어가도 index.html 화면이 나옴
 
 <p align="center">
-  <img src="" width=300><br>
-  <img src="" width=300><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F4olYq%2FbtrEumdaJ4S%2Fj82777JjOoFEtu61pukZck%2Fimg.png" width=800><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FWV9J5%2FbtrEvH78YV1%2F8UqyR2ZwcNRkLkJMqjqfnk%2Fimg.png" width=800><br>
 </p>
 
 <br>
 
-- 실습 과정 (2) - AMI 복제
+** 실습 과정 (2) - AMI 복제 **
 
-  * 복제하고자 하는 instance를 선택 후 오른쪽 버튼 클릭 => '이미지 및 템플릿' 선택 후 '이미지 생성' 선택
+* 복제하고자 하는 instance를 선택 후 오른쪽 버튼 클릭 => '이미지 및 템플릿' 선택 후 '이미지 생성' 선택
 
 <p align="center">
-  <img src="" width=300><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FCJv1M%2FbtrEtNvbrpv%2FJhqWr6mUDeGx4bMz9bZ2O1%2Fimg.png" width=800><br>
 </p>
 
-  * '이미지 이름'에 'MyEC2Clone' 입력 => EBS는 기존 instance의 'volume 유형'인 'gp2'를 그대로 따라감
+* '이미지 이름'에 'MyEC2Clone' 입력 => EBS는 기존 instance의 'volume 유형'인 'gp2'를 그대로 따라감
 
 <p align="center">
-  <img src="" width=300><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbGJY4H%2FbtrEupN5ZdI%2FTiMqkyKkfTo9xtxkBGyF30%2Fimg.png" width=800><br>
 </p>
 
-  * 왼쪽 메뉴에서 'AMI' 선택 => 상태가 '사용 가능'으로 바뀔 때까지 기다림
-
-
-
-
-
-
-- 복제 instance를 만들기 위해 다시 왼쪽 메뉴에서 '인스턴스' 선택 => 오른쪽 상단의 '인스턴스 시작' 선택 => 'AMI'에서 '내 AMI' 선택 => 복제할 AMI 선택
-
-
-
-
-
-
-- '이름 및 태그'에서 '키'에 Name, '값'에 'MyWebServer-2' 입력 => 나머지는 기존과 그대로 한 후 '인스턴스 생성' 선택
-
-
-
-
-
-
-- 생성된 'MyWebServer-2' 선택 후 연결 => '사용자 이름'에 'ec2-user'를 입력 => EC2 connector 접속
-
-
-
-
-
-
-
-
-- 'sudo -s'와 'service httpd start'만 입력하여 web server를 실행 => 하단의 '퍼블릭 IP' 값을 url 창에 입력 => 전과 같이 test page가 생성된 것을 확인
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-실습 과정 (3) - EC2 종료
-- 이전 글을 참고하여 Instance 종료
-
-
-
-
-
-
-
-
-
-
-
-참고: AWS 강의실(https://www.youtube.com/c/AAAWS)
-
-- On-demand
-
-  * 실행하는 instance에 따라 시간 또는 초당 computing power로 측정된 가격을 지불함.
-  * 약정은 필요 없음.
-  * 주로 장기적인 수요 예측이 힘들거나 유연하게 EC2를 사용하고 싶은 경우, 혹은 한 번 써보고 싶은 경우 사용함.
-
-<br>
-
-- Spot Instance
-
-  * 경매 형식으로 시장에 남는 instance를 저렴하게 구매해서 쓰는 방식 => 수요에 따라 Spot Instance 가격이 계속 변동되기 때문에 내가 지정한 가격보다 낮다면 사용하고 내가 지정한 가격보다 높다면 반환함
-  * 최대 90% 정도 저렴함.
-  * 반환 시간 예측이 불가능하다는 단점이 있음 => 언제 도로 내주어야 할지 모르기 때문에 instance가 확보되고 종료되는 것을 반복해도 문제 없는 분산 architecture가 필요함
-  * 주로 시작과 종료가 자유롭거나 추가적인 computing power가 필요한 경우 사용함 (ex. big data 처리, ML 등 많은 instance가 필요한 작업) => Hadoop과 같은 cluster system의 경우 manager가 instance의 task를 관리하기 때문에 여러 instance가 사용과 반납을 반복해도 문제가 없음. 오히려 싼 가격에 많은 instance를 사용하면 더 좋음.
+* 왼쪽 메뉴에서 'AMI' 선택 => 상태가 '사용 가능'으로 바뀔 때까지 기다림
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcoUytz%2FbtrEnDzr8er%2FrxgGAGfUqOIPy0gSyHDY5k%2Fimg.png" width=450><br>
-  Spot Instance 가격이 변동됨에 따라 사용을 시작하고 반납을 함
+  <img src="" width=800><br>
 </p>
 
-<br>
-
-- Reserved Instance (RI)
-
-  * 미리 일정기간(1년 또는 3년)을 약정해서 쓰는 방식
-  * 최대 75% 정도 저렴함.
-  * 주로 수요 예측이 확실할 때 사용하고, 총 비용을 절감하기 위해 어느 정도 기간의 약정이 가능한 사람들이 사용함.
-
-<br>
-
-- Dedicated (전용 host)
-
-  * 가상화된 server에서 EC2를 빌리는 것이 아닌 지정된 실제 물리적인 server에서 EC2를 대여하는 방식
-  * 주로 License issue나(windows server 등) Performance issue나(CPU steal 등) 규정에 따른 이유로 사용함.
-
-
-<br>
-
-
-### EC2 유형과 Size
-
-- Instance 유형과 size 읽는 법
+* 복제 instance를 만들기 위해 다시 왼쪽 메뉴에서 '인스턴스' 선택 => 오른쪽 상단의 '인스턴스 시작' 선택 => 'AMI'에서 '내 AMI' 선택 => 복제할 AMI 선택
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdWoFyd%2FbtrEnCAw12P%2FqS3XMtAyKuOgX9gfZ4wKs0%2Fimg.png" width=300>
+  <img src="" width=800><br>
 </p>
 
-<br>
-
-- Instance 유형
-
-  * 각 instance 별로 사용 목적에 따라 최적화 (ex. memory 위주, CPU 위주, graphic card 위주)
-  * type 별로 이름 부여 (ex. t type, m type, inf type)
-  * type 별 세대별로 숫자 부여 (ex. m5 = m instance의 5번째 세대)
-  * architecture 및 사용 기술에 따라 접두사 (ex. t4g = t4 instance 중 g(AWS Graviton processor)를 사용)
+* '이름 및 태그'에서 '키'에 Name, '값'에 'MyWebServer-2' 입력 => 나머지는 기존과 그대로 한 후 '인스턴스 생성' 선택
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc2uk5W%2FbtrEoKq6XeX%2Fa7kzx9xYYXypJwkROJSNQ0%2Fimg.png" width=600>
+  <img src="" width=800><br>
 </p>
 
-<br>
+* 생성된 'MyWebServer-2' 선택 후 연결 => '사용자 이름'에 'ec2-user'를 입력 => EC2 connector 접속
 
-- Instance Size
+<p align="center">
+  <img src="" width=800><br>
+</p>
 
-  * instance의 CPU 갯수, memory size, 성능 등으로 size 결정
-  * 크기가 클수록 => 더 많은 memory, 더 많은 CPU, 더 많은 network 대역폭, EBS와의 통신 가능한 대역폭
+* 'sudo -s'와 'service httpd start'만 입력하여 web server를 실행 => 하단의 '퍼블릭 IP' 값을 url 창에 입력 => 전과 같이 test page가 생성된 것을 확인
+
+<p align="center">
+  <img src="" width=800><br>
+</p>
+
+** 실습 과정 (3) - EC2 종료 **
+
+* 이전 글을 참고하여 Instance 종료
 
 
 <br>
