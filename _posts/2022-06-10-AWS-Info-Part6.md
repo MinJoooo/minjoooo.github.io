@@ -164,31 +164,31 @@ toc: false
 * 왼쪽 메뉴에서 'AMI' 선택 => 상태가 '사용 가능'으로 바뀔 때까지 기다림
 
 <p align="center">
-  <img src="" width=800><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXs5Rh%2FbtrEumdbI2r%2FMQHsUfWJjO7o4VFPhrd05k%2Fimg.png" width=800><br>
 </p>
 
 * 복제 instance를 만들기 위해 다시 왼쪽 메뉴에서 '인스턴스' 선택 => 오른쪽 상단의 '인스턴스 시작' 선택 => 'AMI'에서 '내 AMI' 선택 => 복제할 AMI 선택
 
 <p align="center">
-  <img src="" width=800><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdaUBL1%2FbtrEwjlKBzz%2FMKnnP0Xy6ExponaAKevod0%2Fimg.png" width=600><br>
 </p>
 
 * '이름 및 태그'에서 '키'에 Name, '값'에 'MyWebServer-2' 입력 => 나머지는 기존과 그대로 한 후 '인스턴스 생성' 선택
 
 <p align="center">
-  <img src="" width=800><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbi0wgY%2FbtrEuO74GBX%2FsFpiNhtVJ3g95eWe1IP6N1%2Fimg.png" width=600><br>
 </p>
 
 * 생성된 'MyWebServer-2' 선택 후 연결 => '사용자 이름'에 'ec2-user'를 입력 => EC2 connector 접속
 
 <p align="center">
-  <img src="" width=800><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9j1ie%2FbtrEuzwzomO%2FUZkEUwnwuHR6WpZgytqKtk%2Fimg.png" width=600><br>
 </p>
 
 * 'sudo -s'와 'service httpd start'만 입력하여 web server를 실행 => 하단의 '퍼블릭 IP' 값을 url 창에 입력 => 전과 같이 test page가 생성된 것을 확인
 
 <p align="center">
-  <img src="" width=800><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlnoLt%2FbtrEwyC6TBx%2FezheUKkolNKiJq0sh12Kf0%2Fimg.png" width=600><br>
 </p>
 
 ** 실습 과정 (3) - EC2 종료 **
