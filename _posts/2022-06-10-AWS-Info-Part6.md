@@ -134,7 +134,7 @@ toc: false
 
 <br>
 
-** 실습 과정 (1) - Instance 생성 후 EC2 connector **
+**실습 과정 (1) - Instance 생성 후 EC2 connector**
 
 * 이전 글을 참고하여 Instance 생성
 * 이전 글을 참고하여 EC2 connector 접속 후 index.html file까지 만듦
@@ -147,7 +147,7 @@ toc: false
 
 <br>
 
-** 실습 과정 (2) - AMI 복제 **
+**실습 과정 (2) - AMI 복제**
 
 * 복제하고자 하는 instance를 선택 후 오른쪽 버튼 클릭 => '이미지 및 템플릿' 선택 후 '이미지 생성' 선택
 
@@ -191,7 +191,7 @@ toc: false
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlnoLt%2FbtrEwyC6TBx%2FezheUKkolNKiJq0sh12Kf0%2Fimg.png" width=600><br>
 </p>
 
-** 실습 과정 (3) - EC2 종료 **
+**실습 과정 (3) - EC2 종료**
 
 * 이전 글을 참고하여 Instance 종료
 
