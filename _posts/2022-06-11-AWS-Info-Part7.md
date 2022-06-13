@@ -22,6 +22,7 @@ toc: false
 ### EC2의 생명주기
 
 - 정의
+
   * AMI로부터 EC2가 실행이 된 후부터 종료될 때까지 EC2가 거치는 과정
 
 <p align="center">
