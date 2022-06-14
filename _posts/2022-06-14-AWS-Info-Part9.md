@@ -274,7 +274,7 @@ service httpd start
 * 'Network mapping'에서 'Mappings'에 모든 Availability Zone을 선택
 
 <p align="center">
-  <img src="" width=800><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FAioPI%2FbtrENeSz2fo%2FdDiCheRBgF2G1IbxW5Ij40%2Fimg.png" width=700><br>
 </p>
 
 <br>
