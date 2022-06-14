@@ -206,7 +206,7 @@ service httpd start
 * '세부 정보'의 '그룹 세부 정보'에서 '편집' 선택 => '원하는 용량'과 '최소 용량'에 2를 입력 (다른 숫자를 입력해도 됨)
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FsXTek%2FbtrEJ4ws5Qz%2FHOmruoYaRYCNXuJFzN2YV1%2Fimg.png" width=600><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FsXTek%2FbtrEJ4ws5Qz%2FHOmruoYaRYCNXuJFzN2YV1%2Fimg.png" width=400><br>
 </p>
 
 
