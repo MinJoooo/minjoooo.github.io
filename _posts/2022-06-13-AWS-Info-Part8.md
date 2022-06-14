@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[AWS] AWS 알아보기 Part 8 - Auto Scaling"
+title: "[AWS] AWS 알아보기 Part 8 - Auto Scaling 소개 및 실습"
 categories: AWS
 tag: [AWS]
 toc: false
@@ -12,7 +12,7 @@ toc: false
 
 ###### 2022.06.13.
 ###### AWS 알아보기 Part 8
-###### (Auto Scaling)
+###### (Auto Scaling 소개 및 실습)
 
 <br>
 <br>
