@@ -349,7 +349,7 @@ service httpd start
 * 이제 EC2의 상태 확인뿐만 아니라 ELB의 상태 확인도 하게 됨 (instance의 web server가 끊겼을 때 ELB 입장에서는 이것을 이미 'unhealthy'라고 판단했음)
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5VpGe%2FbtrEKVmmxWC%2FL1tiUAORgaxjgaDrOwuAHK%2Fimg.png" width=700><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5VpGe%2FbtrEKVmmxWC%2FL1tiUAORgaxjgaDrOwuAHK%2Fimg.png" width=600><br>
 </p>
 
 <br>
