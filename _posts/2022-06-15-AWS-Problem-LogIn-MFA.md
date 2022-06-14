@@ -19,4 +19,4 @@ toc: false
 
 
 ### https://minjoooo.tistory.com/23
-### 내용 추가 예정
+### 깃허브에도 업데이트 예정
