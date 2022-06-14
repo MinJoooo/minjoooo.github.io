@@ -312,7 +312,7 @@ service httpd start
 * 'EC2' 검색 후 왼쪽 메뉴에서 'Auto Scaling 그룹' 선택 => 만들어놓은 auto scaling group 선택 => '세부 정보'의 '로드 밸런싱'에서 '편집' 선택 => '애플리케이션, 네트워크 또는 게이트웨이 로드 밸런서 대상 그룹'에 체크 후 대상 그룹에 만들어놓은 target group선택 -> '업데이트' 선택 => 이제부터 선택한 auto scaling group에서 생성되는 모든 instance는 선택한 target group에 속하게 됨
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdSoX1e%2FbtrEJw1Btxz%2FMg8CBmzh3Fa0tD0Ed6TFlk%2Fimg.png" width=700><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdSoX1e%2FbtrEJw1Btxz%2FMg8CBmzh3Fa0tD0Ed6TFlk%2Fimg.png" width=600><br>
 </p>
 
 <br>
