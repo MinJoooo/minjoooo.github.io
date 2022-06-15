@@ -2,7 +2,7 @@
 layout: single
 title: "[AWS, Data Infrastructure] AWS에서 분석 플랫폼 구축 실습 Part 0 (실습 목표 및 전제 조건)"
 categories: AWS, Data-Infrastructure
-tag: [AWS], [Data Infrastructure]
+tag: [AWS, Data Infrastructure]
 toc: false
 ---
 
@@ -36,7 +36,7 @@ toc: false
   * Amazon Athena를 사용하여 data를 query하고 Amazon QuickSight를 사용하여 visualization
 
 <p align="center">
-  <img src="" width=800><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb372Kd%2FbtrEUh9bG19%2FlMkrkHsgJJc6BPwFKs2IHK%2Fimg.png" width=800><br>
   Architecture<br>
 </p>
 
