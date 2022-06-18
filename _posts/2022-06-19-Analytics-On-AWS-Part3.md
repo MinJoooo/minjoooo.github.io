@@ -10,7 +10,7 @@ toc: false
 <br>
 <br>
 
-###### 2022.06.18.
+###### 2022.06.19.
 ###### AWS에서 분석 플랫폼 구축 실습 Part 3
 ###### (Glue Dev Endpoint, Jupyter Notebook)
 
